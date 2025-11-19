@@ -98,12 +98,26 @@
                   ]
                 },
                 {
-                  "section": "Field",
-                  "style": false
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Field",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": true
                 },
                 {
-                  "section": "Extra_Deck",
-                  "style": false
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Extra_Deck",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": true
                 }
               ],
               "isSymetricalForOpponents": false
@@ -383,11 +397,11 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
+            "displayedTitle": "Extra deck",
+            "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           }
         }
