@@ -11,12 +11,12 @@
     ],
     "decksUrl": "https://valcur.github.io/TCG-Arena-Yugioh/Yu-Gi-OhDecks.json"
   },
-  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees. Your extra deck is in your 'Removed hidden' section.",
+  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees.",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://valcur.github.io/TCG-Arena-Yugioh/YugiohCards.json",
     "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
-    "cardBackColor": "#E77E4B"
+    "cardBackColor": "#C18264"
   },
   "deckBuilding": {
     "mainFilters": [

@@ -11,11 +11,12 @@
     ],
     "decksUrl": "https://valcur.github.io/TCG-Arena-Yugioh/Yu-Gi-OhDecks.json"
   },
-  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees. Your extra deck is in your 'Removed hidden' section.",
+  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees.",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://valcur.github.io/TCG-Arena-Yugioh/YugiohCards.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png"
+    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
+    "cardBackColor": "#C18264"
   },
   "deckBuilding": {
     "mainFilters": [
@@ -68,7 +69,8 @@
           "Spells_5",
           "Extra_Monster_1",
           "Extra_Monster_2",
-          "Field"
+          "Field",
+          "Extra_Deck"
         ],
         "layout": {
           "direction": "row",
@@ -77,97 +79,123 @@
             {
               "direction": "column",
               "style": {
-                "width": "32vh",
-                "marginRight": "8vh"
+                "justifyContent": "start",
+                "width": "22vh"
               },
               "content": [
                 {
                   "direction": "row",
                   "isSymetricalForOpponents": true,
-                  "style": false,
                   "content": [
                     {
-                      "section": "Extra_Monster_1",
-                      "style": false
+                      "section": "Extra_Monster_1"
                     },
                     {
-                      "section": "Extra_Monster_2",
-                      "style": false
+                      "section": "Extra_Monster_2"
                     }
                   ]
                 },
                 {
-                  "section": "Field",
-                  "style": false
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Field"
+                    }
+                  ],
+                  "isSymetricalForOpponents": true
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             },
             {
               "direction": "column",
-              "style": false,
+              "style": {
+                "width": "93vh",
+                "marginRight": "auto",
+                "marginLeft": "auto"
+              },
               "content": [
                 {
                   "direction": "row",
-                  "style": false,
                   "content": [
                     {
                       "section": "Monsters_1",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Monsters_2",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Monsters_3",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Monsters_4",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
-                      "section": "Monsters_5",
-                      "style": false
+                      "section": "Monsters_5"
                     }
-                  ],
-                  "isSymetricalForOpponents": false
+                  ]
                 },
                 {
                   "direction": "row",
-                  "style": false,
                   "content": [
                     {
                       "section": "Spells_1",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Spells_2",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Spells_3",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
                       "section": "Spells_4",
-                      "style": false
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     },
                     {
-                      "section": "Spells_5",
-                      "style": false
+                      "section": "Spells_5"
                     }
-                  ],
-                  "isSymetricalForOpponents": false
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "width": "12vh"
+              },
+              "content": [
+                {
+                  "section": "Extra_Deck"
                 }
               ],
-              "isSymetricalForOpponents": false
+              "isSymetricalForOpponents": true
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Extra deck->ExileHidden"
+          "Extra deck->Extra_Deck"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -254,7 +282,7 @@
             "title": "Monsters_1",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -269,7 +297,7 @@
             "title": "Monsters_2",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -284,7 +312,7 @@
             "title": "Monsters_3",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -299,7 +327,7 @@
             "title": "Monsters_4",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -314,7 +342,7 @@
             "title": "Monsters_5",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -328,8 +356,8 @@
           "Extra_Monster_1": {
             "title": "Extra_Monster_1",
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
+            "height": "SMALL",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -343,8 +371,8 @@
           "Extra_Monster_2": {
             "title": "Extra_Monster_2",
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
+            "height": "SMALL",
+            "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -364,6 +392,21 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Field",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Extra_Deck": {
+            "title": "Extra_Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Extra deck",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
