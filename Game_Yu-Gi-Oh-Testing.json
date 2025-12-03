@@ -113,7 +113,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "77vh",
+                "width": "85vh",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
@@ -124,19 +124,27 @@
                   "content": [
                     {
                       "section": "Monsters_1",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Monsters_2",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Monsters_3",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Monsters_4",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Monsters_5",
@@ -151,19 +159,27 @@
                   "content": [
                     {
                       "section": "Spells_1",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Spells_2",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Spells_3",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Spells_4",
-                      "style": false
+                      "style": {
+                        "marginRight": "2vh"
+                      }
                     },
                     {
                       "section": "Spells_5",
