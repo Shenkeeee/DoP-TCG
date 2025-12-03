@@ -412,7 +412,7 @@
           },
           "Extra_Deck": {
             "title": "Extra_Deck",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,
