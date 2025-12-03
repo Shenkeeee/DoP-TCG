@@ -78,8 +78,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "31vh",
-                "marginRight": "auto"
+                "width": "31vh"
               },
               "content": [
                 {
@@ -114,8 +113,9 @@
             {
               "direction": "column",
               "style": {
-                "justify-content": "normal",
-                "width": "77vh"
+                "width": "77vh",
+                "marginRight": "auto",
+                "marginLeft": "auto"
               },
               "content": [
                 {
@@ -178,7 +178,8 @@
             {
               "direction": "row",
               "style": {
-                "marginTop": "auto"
+                "marginTop": "auto",
+                "width": "12vh"
               },
               "content": [
                 {
@@ -401,7 +402,7 @@
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
+            "isHorizontalAllowed": false,
             "displayedTitle": "Extra deck",
             "noQuickActions": true,
             "enterTapped": false,
