@@ -78,7 +78,8 @@
             {
               "direction": "column",
               "style": {
-                "width": "31vh"
+                "justifyContent": "start",
+                "width": "22vh"
               },
               "content": [
                 {
@@ -113,7 +114,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "85vh",
+                "width": "89vh",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
@@ -125,25 +126,25 @@
                     {
                       "section": "Monsters_1",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Monsters_2",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Monsters_3",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Monsters_4",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
@@ -160,25 +161,25 @@
                     {
                       "section": "Spells_1",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Spells_2",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Spells_3",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
                       "section": "Spells_4",
                       "style": {
-                        "marginRight": "2vh"
+                        "marginRight": "3vh"
                       }
                     },
                     {
@@ -368,7 +369,7 @@
           "Extra_Monster_1": {
             "title": "Extra_Monster_1",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -383,7 +384,7 @@
           "Extra_Monster_2": {
             "title": "Extra_Monster_2",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
