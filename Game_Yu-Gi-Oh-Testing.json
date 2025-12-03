@@ -15,7 +15,8 @@
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://valcur.github.io/TCG-Arena-Yugioh/YugiohCards.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png"
+    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
+    "cardBackColor": "#E77E4B"
   },
   "deckBuilding": {
     "mainFilters": [
@@ -114,7 +115,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "89vh",
+                "width": "93vh",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
@@ -126,25 +127,25 @@
                     {
                       "section": "Monsters_1",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Monsters_2",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Monsters_3",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Monsters_4",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
@@ -161,25 +162,25 @@
                     {
                       "section": "Spells_1",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Spells_2",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Spells_3",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Spells_4",
                       "style": {
-                        "marginRight": "3vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
