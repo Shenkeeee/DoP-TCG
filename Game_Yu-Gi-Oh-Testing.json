@@ -178,7 +178,6 @@
             {
               "direction": "row",
               "style": {
-                "marginTop": "auto",
                 "width": "12vh"
               },
               "content": [
