@@ -1,8 +1,8 @@
 {
   "name": "DoP",
-  "menuBackgroundImage": "https://shenkeeee.github.io/DoP-TCG/Images/bg.webp",
+  "menuBackgroundImage": "https://shenkeeee.github.io/DoP-TCG/Images/additional/bg.jpg",
   "defaultRessources": {
-    "backgrounds": ["https://shenkeeee.github.io/DoP-TCG/Images/bg.webp"],
+    "backgrounds": ["https://shenkeeee.github.io/DoP-TCG/Images/additional/bg.jpg"],
     "decksUrl": "https://shenkeeee.github.io/DoP-TCG/DoPDecks.json"
   },
   "customHelp": ".",
