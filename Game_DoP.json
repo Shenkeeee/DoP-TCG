@@ -2,31 +2,31 @@
   "name": "DoP",
   "menuBackgroundImage": "https://shenkeeee.github.io/DoP-TCG/Images/bg.webp",
   "defaultRessources": {
-    "backgrounds": [
-      "https://shenkeeee.github.io/DoP-TCG/Images/bg.webp"
-    ],
+    "backgrounds": ["https://shenkeeee.github.io/DoP-TCG/Images/bg.webp"],
     "decksUrl": "https://shenkeeee.github.io/DoP-TCG/DoPDecks.json"
   },
   "customHelp": ".",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://shenkeeee.github.io/DoP-TCG/DoPCards.json",
-    "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
+    "cardBack": "https://github.com/Shenkeeee/deckbuilder/tree/master/src/assets/pics/cards/dop23-079.webp",
     "cardBackColor": "#C18264"
   },
   "deckBuilding": {
     "mainFilters": [
       "type",
-      "archetype",
-      "level"
+      "cost",
+      "altipus",
+      "szin",
+      "mana+",
+      "nyeremeny",
+      "spirit"
     ],
     "formats": [
       {
         "title": "Classic",
         "gameplay": "Classic",
-        "customCategories": [
-          "Extra deck"
-        ]
+        "customCategories": ["Extra deck"]
       }
     ]
   },
@@ -34,7 +34,7 @@
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "5",
+        "startingHandSize": "4",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -47,9 +47,7 @@
       },
       "defaultNotes": "",
       "tokens": [],
-      "countersStartingValues": [
-        "8000"
-      ],
+      "countersStartingValues": ["8000"],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
@@ -190,9 +188,7 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Extra deck->Extra_Deck"
-        ],
+        "categoriesAlreadyOnBoard": ["Extra deck->Extra_Deck"],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
           "Trap": "Discard",
