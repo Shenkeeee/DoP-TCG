@@ -7,7 +7,7 @@
     ],
     "decksUrl": "https://shenkeeee.github.io/DoP-TCG/DoPDecks.json"
   },
-  "customHelp": "Extra monsters are on the left as I'm missing place to put them on the front. To place a monster in defense faced down, drag the card and press Z key before dropping it to the desired location, then click it to rotate it 90 degrees.",
+  "customHelp": ".",
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://shenkeeee.github.io/DoP-TCG/DoPCards.json",
