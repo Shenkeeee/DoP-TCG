@@ -9,7 +9,7 @@
   "cardRotation": 90,
   "cards": {
     "dataUrl": "https://shenkeeee.github.io/DoP-TCG/DoPCards.json",
-    "cardBack": "https://github.com/Shenkeeee/deckbuilder/tree/master/src/assets/pics/cards/dop23-079.webp",
+    "cardBack": "https://shenkeeee.github.io/DoP-TCG/Images/cards/dop23-079.jpg",
     "cardBackColor": "#C18264"
   },
   "deckBuilding": {
