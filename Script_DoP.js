@@ -100,4 +100,4 @@ async function modifyJsonFile(outputFilePath) {
 }
 
 // Exécution
-modifyJsonFile("YugiohCards.json");
+modifyJsonFile("DoPCards.json");

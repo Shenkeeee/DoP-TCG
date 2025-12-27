@@ -1,8 +1,8 @@
 [
   {
-    "title": "Starter deck: Yugi",
-    "id": "Starter deck: Yugi",
-    "game": "Yu-Gi-Oh",
+    "title": "Starter deck: Default",
+    "id": "Starter deck: Default",
+    "game": "DoP",
     "format": "Classic",
     "cardCount": 50,
     "createdAt": "2025-04-21T14:01:10.188Z",
@@ -224,7 +224,7 @@
   {
     "title": "Starter Deck: Kaiba",
     "id": "Starter Deck: Kaiba",
-    "game": "Yu-Gi-Oh",
+    "game": "DoP",
     "format": "Classic",
     "cardCount": 50,
     "createdAt": "2025-04-21T14:02:25.161Z",
