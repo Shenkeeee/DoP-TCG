@@ -66,9 +66,6 @@
           "Karakter_1",
           "Karakter_2",
           "Karakter_3",
-          "Aura_1",
-          "Aura_2",
-          "Aura_3",
           "Zona_1",
           "Zona_2",
           "Zona_3",
@@ -152,26 +149,6 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "Aura_1",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Aura_2",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Aura_3"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
                       "section": "Zona_1",
                       "style": {
                         "marginRight": "4vh"
@@ -245,51 +222,6 @@
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
-          "Aura_1": {
-            "title": "Aura_1",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Aura",
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-          "Aura_2": {
-            "title": "Aura_2",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Aura",
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-          "Aura_3": {
-            "title": "Aura_3",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Aura",
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
           "Zona_1": {
             "title": "Zona_1",
             "isHidden": "no",
@@ -338,7 +270,7 @@
           "Karakter_1": {
             "title": "Karakter_1",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -353,7 +285,7 @@
           "Karakter_2": {
             "title": "Karakter_2",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -368,7 +300,7 @@
           "Karakter_3": {
             "title": "Karakter_3",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
