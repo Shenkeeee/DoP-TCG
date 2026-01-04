@@ -1,16 +1,44 @@
 [
   {
-    "title": "Starter deck: DefaultTest",
-    "id": "Starter deck: DefaultTest",
+    "title": "Standard Starter deck Test",
+    "id": "Standard Starter deck Test",
     "game": "DoP",
     "format": "Standard",
-    "cardCount": 10,
+    "cardCount": 50,
     "createdAt": "2025-04-21T14:01:10.188Z",
     "lastModifiedAt": "2025-04-21T14:01:36.493Z",
     "deckList": {
       "categoriesOrder": ["Karakter", "Varázslat"],
-      "Karakter": [{ "id": "Phy26-001", "count": 5 }],
-      "Varázslat": [{ "id": "Phy26-002", "count": 5 }]
+      "Karakter": [{ "id": "Phy26-001", "count": 40 }],
+      "Varázslat": [{ "id": "Phy26-002", "count": 10 }]
+    }
+  },
+  {
+    "title": "Rush Starter deck Test",
+    "id": "Rush Starter deck Test",
+    "game": "DoP",
+    "format": "Rush",
+    "cardCount": 35,
+    "createdAt": "2025-04-21T14:01:10.188Z",
+    "lastModifiedAt": "2025-04-21T14:01:36.493Z",
+    "deckList": {
+      "categoriesOrder": ["Karakter", "Varázslat"],
+      "Karakter": [{ "id": "Phy26-001", "count": 20 }],
+      "Varázslat": [{ "id": "Phy26-002", "count": 15 }]
+    }
+  },
+  {
+    "title": "Profi Starter deck Test",
+    "id": "Profi Starter deck Test",
+    "game": "DoP",
+    "format": "Profi",
+    "cardCount": 60,
+    "createdAt": "2025-04-21T14:01:10.188Z",
+    "lastModifiedAt": "2025-04-21T14:01:36.493Z",
+    "deckList": {
+      "categoriesOrder": ["Karakter", "Varázslat"],
+      "Karakter": [{ "id": "Phy26-001", "count": 40 }],
+      "Varázslat": [{ "id": "Phy26-002", "count": 20 }]
     }
   }
 ]

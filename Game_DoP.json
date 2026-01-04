@@ -29,6 +29,16 @@
         "title": "Standard",
         "gameplay": "Standard",
         "customCategories": []
+      },
+      {
+        "title": "Rush",
+        "gameplay": "Standard",
+        "customCategories": []
+      },
+      {
+        "title": "Profi",
+        "gameplay": "Standard",
+        "customCategories": []
       }
     ]
   },
@@ -45,7 +55,7 @@
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "drawPerTurn": 0
       },
       "defaultNotes": "",
       "tokens": [],
@@ -69,6 +79,7 @@
           "Portal",
           "Portal_Kapu",
           "Portal_Csapda",
+          "Spirit",
           "Szamuzes"
         ],
         "layout": {
@@ -111,7 +122,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "93vh",
+                "width": "85vh",
                 "justifyContent": "start",
                 "marginRight": "auto",
                 "marginLeft": "auto"
@@ -182,7 +193,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "12vh",
+                "width": "20vh",
                 "justifyContent": "start"
               },
               "content": [
@@ -193,19 +204,34 @@
                     {
                       "section": "Portal_Kapu",
                       "style": {
-                        "width": "6vh"
+                        "width": "10vh"
                       }
                     },
                     {
                       "section": "Portal",
                       "style": {
-                        "width": "6vh"
+                        "width": "10vh"
                       }
                     }
                   ]
                 },
                 {
-                  "section": "Portal_Csapda"
+                  "direction": "row",
+                  "isSymetricalForOpponents": true,
+                  "content": [
+                    {
+                      "section": "Spirit",
+                      "style": {
+                        "width": "10vh"
+                      }
+                    },
+                    {
+                      "section": "Portal_Csapda",
+                      "style": {
+                        "width": "10vh"
+                      }
+                    }
+                  ]
                 },
                 {
                   "section": "Szamuzes"
@@ -277,7 +303,7 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "noQuickActions": false
           },
           "Zona_2": {
             "title": "Zona_2",
@@ -292,7 +318,7 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "noQuickActions": false
           },
           "Zona_3": {
             "title": "Zona_3",
@@ -307,7 +333,7 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "noQuickActions": false
           },
           "Karakter_1": {
             "title": "Karakter_1",
@@ -318,7 +344,7 @@
             "noAutoPayTo": "true",
             "isHorizontalAllowed": true,
             "displayedTitle": "Karakter",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -333,7 +359,7 @@
             "noAutoPayTo": "true",
             "isHorizontalAllowed": true,
             "displayedTitle": "Karakter",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -348,7 +374,7 @@
             "noAutoPayTo": "true",
             "isHorizontalAllowed": true,
             "displayedTitle": "Karakter",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -371,7 +397,7 @@
           },
           "Szintlepes": {
             "title": "Szintlepes",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "SMALL",
             "alignment": "NONE",
             "opponentAlignment": false,
@@ -388,7 +414,7 @@
             "title": "Mana",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "Center",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": true,
@@ -403,7 +429,7 @@
             "title": "Laphuzo",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "Center",
+            "alignment": "Right",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": true,
@@ -419,7 +445,7 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
-            "opponentAlignment": false,
+            "opponentAlignment": true,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "Portál",
@@ -433,7 +459,7 @@
             "title": "Portal_Kapu",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "Center",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
@@ -444,16 +470,31 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
+          "Spirit": {
+            "title": "Spirit",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Spirit",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
           "Portal_Csapda": {
             "title": "Portal_Csapda",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "Center",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "Portál Csapda",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -468,7 +509,7 @@
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "Száműzés",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
