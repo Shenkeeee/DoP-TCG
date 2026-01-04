@@ -216,6 +216,9 @@
                   ]
                 },
                 {
+                  "section": "Portal_Csapda"
+                },
+                {
                   "direction": "row",
                   "isSymetricalForOpponents": true,
                   "content": [
@@ -226,15 +229,12 @@
                       }
                     },
                     {
-                      "section": "Portal_Csapda",
+                      "section": "Szamuzes",
                       "style": {
                         "width": "10vh"
                       }
                     }
                   ]
-                },
-                {
-                  "section": "Szamuzes"
                 }
               ],
               "isSymetricalForOpponents": true
