@@ -68,7 +68,8 @@
           "Laphuzo",
           "Portal",
           "Portal_Kapu",
-          "Portal_Csapda"
+          "Portal_Csapda",
+          "Szamuzes"
         ],
         "layout": {
           "direction": "row",
@@ -200,6 +201,9 @@
                 },
                 {
                   "section": "Portal_Csapda"
+                },
+                {
+                  "section": "Szamuzes"
                 }
               ],
               "isSymetricalForOpponents": true
@@ -444,6 +448,21 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Portál Csapda",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Szamuzes": {
+            "title": "Szamuzes",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Száműzés",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
