@@ -312,7 +312,7 @@
           "Karakter_1": {
             "title": "Karakter_1",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -327,7 +327,7 @@
           "Karakter_2": {
             "title": "Karakter_2",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -342,7 +342,7 @@
           "Karakter_3": {
             "title": "Karakter_3",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
