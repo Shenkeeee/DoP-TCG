@@ -112,6 +112,7 @@
               "direction": "column",
               "style": {
                 "width": "93vh",
+                "justifyContent": "start",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
@@ -132,10 +133,7 @@
                       }
                     },
                     {
-                      "section": "Karakter_3",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Karakter_3"
                     }
                   ]
                 },
@@ -155,10 +153,7 @@
                       }
                     },
                     {
-                      "section": "Aura_3",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
+                      "section": "Aura_3"
                     }
                   ]
                 },
@@ -168,23 +163,17 @@
                     {
                       "section": "Zona_1",
                       "style": {
-                        "marginRight": "4vh",
-                        "marginBottom": "2vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
                       "section": "Zona_2",
                       "style": {
-                        "marginRight": "4vh",
-                        "marginBottom": "2vh"
+                        "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Zona_3",
-                      "style": {
-                        "marginRight": "4vh",
-                        "marginBottom": "2vh"
-                      }
+                      "section": "Zona_3"
                     }
                   ]
                 }
@@ -193,7 +182,8 @@
             {
               "direction": "column",
               "style": {
-                "width": "12vh"
+                "width": "12vh",
+                "justifyContent": "start"
               },
               "content": [
                 {
@@ -201,10 +191,16 @@
                   "isSymetricalForOpponents": true,
                   "content": [
                     {
-                      "section": "Portal_Kapu"
+                      "section": "Portal_Kapu",
+                      "style": {
+                        "width": "6vh"
+                      }
                     },
                     {
-                      "section": "Portal"
+                      "section": "Portal",
+                      "style": {
+                        "width": "6vh"
+                      }
                     }
                   ]
                 },
