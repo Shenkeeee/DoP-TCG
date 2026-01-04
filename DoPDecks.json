@@ -14,17 +14,51 @@
     }
   },
   {
-    "title": "Rush Starter deck Test",
-    "id": "Rush Starter deck Test",
+    "title": "Fekete-Piros kezdőpakli",
+    "id": "Fekete-Piros kezdőpakli",
     "game": "DoP",
     "format": "Rush",
-    "cardCount": 35,
+    "cardCount": 36,
     "createdAt": "2025-04-21T14:01:10.188Z",
     "lastModifiedAt": "2025-04-21T14:01:36.493Z",
     "deckList": {
-      "categoriesOrder": ["Karakter", "Varázslat"],
-      "Karakter": [{ "id": "Phy26-001", "count": 20 }],
-      "Varázslat": [{ "id": "Phy26-002", "count": 15 }]
+      "categoriesOrder": ["Vezető", "Karakter", "Varázslat"],
+      "Vezető": [{ "id": "Equ25-016", "count": 1 }],
+      "Karakter": [
+        { "id": "Equ25-028", "count": 5 },
+        { "id": "Equ25-066", "count": 5 },
+        { "id": "Equ25-067", "count": 5 },
+        { "id": "Equ25-071", "count": 5 }
+      ],
+      "Varázslat": [
+        { "id": "Equ25-040", "count": 5 },
+        { "id": "Equ25-073", "count": 5 },
+        { "id": "Equ25-074", "count": 5 }
+      ]
+    }
+  },
+  {
+    "title": "Fehér-Magenta kezdőpakli",
+    "id": "Fehér-Magenta kezdőpakli",
+    "game": "DoP",
+    "format": "Rush",
+    "cardCount": 36,
+    "createdAt": "2025-04-21T14:01:10.188Z",
+    "lastModifiedAt": "2025-04-21T14:01:36.493Z",
+    "deckList": {
+      "categoriesOrder": ["Vezető", "Karakter", "Varázslat"],
+      "Vezető": [{ "id": "Equ25-011", "count": 1 }],
+      "Karakter": [
+        { "id": "Equ25-023", "count": 5 },
+        { "id": "Equ25-046", "count": 5 },
+        { "id": "Equ25-047", "count": 5 },
+        { "id": "Equ25-056", "count": 5 }
+      ],
+      "Varázslat": [
+        { "id": "Equ25-035", "count": 5 },
+        { "id": "Equ25-048", "count": 5 },
+        { "id": "Equ25-050", "count": 5 }
+      ]
     }
   },
   {
