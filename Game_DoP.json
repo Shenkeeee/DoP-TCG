@@ -28,13 +28,13 @@
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": ["Extra deck"]
+        "customCategories": []
       }
     ]
   },
   "gameplay": {
     "Standard": {
-      "starting deck": {
+      "startingDeck": {
         "info": "",
         "startingHandSize": "4",
         "drawNewHand": false,
@@ -59,17 +59,16 @@
           "Aura_1",
           "Aura_2",
           "Aura_3",
-          "Zóna_1",
-          "Zóna_2",
-          "Zóna_3",
-          "Vezető",
-          "Szintlépés",
+          "Zona_1",
+          "Zona_2",
+          "Zona_3",
+          "Vezeto",
+          "Szintlepes",
           "Mana",
-          "Laphúzó",
-          "Portál",
-          "Portál_Kapu",
-          "Portál_Csapda",
-          "Extra_Deck"
+          "Laphuzo",
+          "Portal",
+          "Portal_Kapu",
+          "Portal_Csapda"
         ],
         "layout": {
           "direction": "row",
@@ -87,10 +86,10 @@
                   "isSymetricalForOpponents": true,
                   "content": [
                     {
-                      "section": "Vezető"
+                      "section": "Vezeto"
                     },
                     {
-                      "section": "Szintlépés"
+                      "section": "Szintlepes"
                     }
                   ]
                 },
@@ -101,7 +100,7 @@
                       "section": "Mana"
                     },
                     {
-                      "section": "Laphúzó"
+                      "section": "Laphuzo"
                     }
                   ],
                   "isSymetricalForOpponents": true
@@ -166,19 +165,19 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "Zóna_1",
+                      "section": "Zona_1",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Zóna_2",
+                      "section": "Zona_2",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Zóna_3",
+                      "section": "Zona_3",
                       "style": {
                         "marginRight": "4vh"
                       }
@@ -194,13 +193,13 @@
               },
               "content": [
                 {
-                  "section": "Portál_Kapu"
+                  "section": "Portal_Kapu"
                 },
                 {
-                  "section": "Portál"
+                  "section": "Portal"
                 },
                 {
-                  "section": "Portál_Csapda"
+                  "section": "Portal_Csapda"
                 }
               ],
               "isSymetricalForOpponents": true
@@ -256,8 +255,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Zóna_1": {
-            "title": "Zóna_1",
+          "Zona_1": {
+            "title": "Zona_1",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
@@ -271,8 +270,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Zóna_2": {
-            "title": "Zóna_2",
+          "Zona_2": {
+            "title": "Zona_2",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
@@ -286,8 +285,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Zóna_3": {
-            "title": "Zóna_3",
+          "Zona_3": {
+            "title": "Zona_3",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
@@ -346,30 +345,30 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Vezető": {
-            "title": "Vezető",
+          "Vezeto": {
+            "title": "Vezeto",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Extra monster 1",
+            "displayedTitle": "Vezető",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Szintlépés": {
-            "title": "Szintlépés",
+          "Szintlepes": {
+            "title": "Szintlepes",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Extra monster 2",
+            "displayedTitle": "Szintlépés",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
@@ -391,8 +390,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Laphúzó": {
-            "title": "Laphúzó",
+          "Laphuzo": {
+            "title": "Laphuzo",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
@@ -406,8 +405,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Portál": {
-            "title": "Portál",
+          "Portal": {
+            "title": "Portal",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
@@ -421,8 +420,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Portál_Kapu": {
-            "title": "Portál Kapu",
+          "Portal_Kapu": {
+            "title": "Portal_Kapu",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
@@ -436,8 +435,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Portál_Csapda": {
-            "title": "Portál Csapda",
+          "Portal_Csapda": {
+            "title": "Portal_Csapda",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
@@ -445,21 +444,6 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "Portál Csapda",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Extra_Deck": {
-            "title": "Extra_Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Extra deck",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
