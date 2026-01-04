@@ -2,7 +2,9 @@
   "name": "DoP",
   "menuBackgroundImage": "https://shenkeeee.github.io/DoP-TCG/Images/additional/bg.jpg",
   "defaultRessources": {
-    "backgrounds": ["https://shenkeeee.github.io/DoP-TCG/Images/additional/bg.jpg"],
+    "backgrounds": [
+      "https://shenkeeee.github.io/DoP-TCG/Images/additional/bg.jpg"
+    ],
     "decksUrl": "https://shenkeeee.github.io/DoP-TCG/DoPDecks.json"
   },
   "customHelp": ".",
@@ -24,15 +26,15 @@
     ],
     "formats": [
       {
-        "title": "Classic",
-        "gameplay": "Classic",
+        "title": "Standard",
+        "gameplay": "Standard",
         "customCategories": ["Extra deck"]
       }
     ]
   },
   "gameplay": {
-    "Classic": {
-      "mulligan": {
+    "Standard": {
+      "starting deck": {
         "info": "",
         "startingHandSize": "4",
         "drawNewHand": false,
@@ -51,19 +53,22 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Monsters_1",
-          "Monsters_2",
-          "Monsters_3",
-          "Monsters_4",
-          "Monsters_5",
-          "Spells_1",
-          "Spells_2",
-          "Spells_3",
-          "Spells_4",
-          "Spells_5",
-          "Extra_Monster_1",
-          "Extra_Monster_2",
-          "Field",
+          "Karakter_1",
+          "Karakter_2",
+          "Karakter_3",
+          "Aura_1",
+          "Aura_2",
+          "Aura_3",
+          "Zóna_1",
+          "Zóna_2",
+          "Zóna_3",
+          "Vezető",
+          "Szintlépés",
+          "Mana",
+          "Laphúzó",
+          "Portál",
+          "Portál_Kapu",
+          "Portál_Csapda",
           "Extra_Deck"
         ],
         "layout": {
@@ -82,18 +87,21 @@
                   "isSymetricalForOpponents": true,
                   "content": [
                     {
-                      "section": "Extra_Monster_1"
+                      "section": "Vezető"
                     },
                     {
-                      "section": "Extra_Monster_2"
+                      "section": "Szintlépés"
                     }
                   ]
                 },
                 {
-                  "direction": "row",
+                  "direction": "column",
                   "content": [
                     {
-                      "section": "Field"
+                      "section": "Mana"
+                    },
+                    {
+                      "section": "Laphúzó"
                     }
                   ],
                   "isSymetricalForOpponents": true
@@ -112,31 +120,22 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "Monsters_1",
+                      "section": "Karakter_1",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Monsters_2",
+                      "section": "Karakter_2",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Monsters_3",
+                      "section": "Karakter_3",
                       "style": {
                         "marginRight": "4vh"
                       }
-                    },
-                    {
-                      "section": "Monsters_4",
-                      "style": {
-                        "marginRight": "4vh"
-                      }
-                    },
-                    {
-                      "section": "Monsters_5"
                     }
                   ]
                 },
@@ -144,209 +143,211 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "Spells_1",
+                      "section": "Aura_1",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Spells_2",
+                      "section": "Aura_2",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Spells_3",
+                      "section": "Aura_3",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Zóna_1",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Spells_4",
+                      "section": "Zóna_2",
                       "style": {
                         "marginRight": "4vh"
                       }
                     },
                     {
-                      "section": "Spells_5"
+                      "section": "Zóna_3",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     }
                   ]
                 }
               ]
             },
             {
-              "direction": "row",
+              "direction": "column",
               "style": {
                 "width": "12vh"
               },
               "content": [
                 {
-                  "section": "Extra_Deck"
+                  "section": "Portál_Kapu"
+                },
+                {
+                  "section": "Portál"
+                },
+                {
+                  "section": "Portál_Csapda"
                 }
               ],
               "isSymetricalForOpponents": true
             }
           ]
         },
-        "categoriesAlreadyOnBoard": ["Extra deck->Extra_Deck"],
+        "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {},
-        "autoPlayFromStack": {
-          "Trap": "Discard",
-          "Spell": "Discard"
-        },
+        "autoPlayFromStack": {},
         "sectionsDict": {
-          "Spells_1": {
-            "title": "Spells_1",
-            "isHidden": "yes",
+          "Aura_1": {
+            "title": "Aura_1",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Aura",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Spells_2": {
-            "title": "Spells_2",
-            "isHidden": "yes",
+          "Aura_2": {
+            "title": "Aura_2",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Aura",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Spells_3": {
-            "title": "Spells_3",
-            "isHidden": "yes",
+          "Aura_3": {
+            "title": "Aura_3",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Aura",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Spells_4": {
-            "title": "Spells_4",
-            "isHidden": "yes",
+          "Zóna_1": {
+            "title": "Zóna_1",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Zóna",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Spells_5": {
-            "title": "Spells_5",
-            "isHidden": "yes",
+          "Zóna_2": {
+            "title": "Zóna_2",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Zóna",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
-          "Monsters_1": {
-            "title": "Monsters_1",
+          "Zóna_3": {
+            "title": "Zóna_3",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Zóna",
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
+          },
+          "Karakter_1": {
+            "title": "Karakter_1",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Karakter",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Monsters_2": {
-            "title": "Monsters_2",
+          "Karakter_2": {
+            "title": "Karakter_2",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Karakter",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Monsters_3": {
-            "title": "Monsters_3",
+          "Karakter_3": {
+            "title": "Karakter_3",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "NONE",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Karakter",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Monsters_4": {
-            "title": "Monsters_4",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Monsters_5": {
-            "title": "Monsters_5",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Extra_Monster_1": {
-            "title": "Extra_Monster_1",
+          "Vezető": {
+            "title": "Vezető",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "NONE",
@@ -360,8 +361,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Extra_Monster_2": {
-            "title": "Extra_Monster_2",
+          "Szintlépés": {
+            "title": "Szintlépés",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "NONE",
@@ -375,15 +376,75 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Field": {
-            "title": "Field",
+          "Mana": {
+            "title": "Mana",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Field",
+            "displayedTitle": "Mana",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Laphúzó": {
+            "title": "Laphúzó",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Laphúzó",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Portál": {
+            "title": "Portál",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Portál",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Portál_Kapu": {
+            "title": "Portál Kapu",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Portál Kapu",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Portál_Csapda": {
+            "title": "Portál Csapda",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Portál Csapda",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
