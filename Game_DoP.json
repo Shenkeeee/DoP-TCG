@@ -218,7 +218,11 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": ["Vezeto", "Spirit", "Szintlepes"],
+        "categoriesAlreadyOnBoard": [
+          "Vezető->Vezeto",
+          "Spirit->Spirit",
+          "Szintlépés->Szintlepes"
+        ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
